@@ -14,6 +14,7 @@ import { ShortTextPipe } from './pipes/short-text.pipe';
 import { ProductComponent } from './components/pages/product/product.component';
 import {OrderComponent} from "./components/pages/order/order.component";
 import {ReactiveFormsModule} from "@angular/forms";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
