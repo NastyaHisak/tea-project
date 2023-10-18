@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subject} from "rxjs";
-import {PopupService} from "../../../services/popup.service";
+import {PopupService} from "../../shared/services/popup.service";
 import {AccordionType} from "../../../types/accordion.type";
 
 @Component({
